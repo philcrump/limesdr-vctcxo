@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name agg)(type KiCad)(uri /home/phil/Projects/vctcxo-ref/lib/agg-kicad/agg.pretty)(options "")(descr ""))
+)

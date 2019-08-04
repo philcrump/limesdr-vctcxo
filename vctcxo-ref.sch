@@ -1,0 +1,366 @@
+EESchema Schematic File Version 4
+LIBS:vctcxo-ref-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L agg:VCTCXO Y1
+U 1 1 5CDC7D23
+P 3250 2950
+F 0 "Y1" H 3250 3175 50  0000 C CNN
+F 1 "VCTCXO" H 3250 3084 50  0000 C CNN
+F 2 "agg:XO-50x32" H 3050 2950 50  0001 C CNN
+F 3 "" H 3050 2950 50  0001 C CNN
+F 4 "2467929" H 3050 2650 50  0001 L CNN "Farnell"
+	1    3250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 5CDC8BA6
+P 4000 3150
+F 0 "RV1" H 3930 3104 50  0000 R CNN
+F 1 "R_POT_TRIM" H 3930 3195 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 4000 3150 50  0001 C CNN
+F 3 "~" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L agg:C C4
+U 1 1 5CDCA266
+P 2750 3050
+F 0 "C4" V 2846 2992 50  0000 R CNN
+F 1 "100n" V 2755 2992 50  0000 R CNN
+F 2 "agg:0603" H 2750 3050 50  0001 C CNN
+F 3 "" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L agg:C C5
+U 1 1 5CDCB5C6
+P 3650 3050
+F 0 "C5" V 3654 3108 50  0000 L CNN
+F 1 "100n" V 3745 3108 50  0000 L CNN
+F 2 "agg:0603" H 3650 3050 50  0001 C CNN
+F 3 "" H 3650 3050 50  0001 C CNN
+	1    3650 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L agg:COAX P1
+U 1 1 5CDCC03B
+P 4800 2950
+F 0 "P1" H 4888 2968 50  0000 L CNN
+F 1 "COAX" H 4888 2877 50  0000 L CNN
+F 2 "agg:SMA-EDGE" H 4800 2740 50  0001 C CNN
+F 3 "" H 4900 2850 50  0001 C CNN
+F 4 "1608592" H 4800 2670 50  0001 C CNN "Farnell"
+	1    4800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg:CONN_01x02 J1
+U 1 1 5CDCD7FE
+P 800 2700
+F 0 "J1" H 833 2915 50  0000 C CNN
+F 1 "CONN_01x02" H 833 2824 50  0000 C CNN
+F 2 "agg:MOLEX-KK-254P-02" H 800 2700 50  0001 C CNN
+F 3 "" H 800 2700 50  0001 C CNN
+	1    800  2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg:C C1
+U 1 1 5CDCE269
+P 1050 2700
+F 0 "C1" V 1054 2758 50  0000 L CNN
+F 1 "100n" V 1145 2758 50  0000 L CNN
+F 2 "agg:0603" H 1050 2700 50  0001 C CNN
+F 3 "" H 1050 2700 50  0001 C CNN
+	1    1050 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L agg:C C3
+U 1 1 5CDCEB14
+P 2450 2750
+F 0 "C3" V 2546 2692 50  0000 R CNN
+F 1 "2u2" V 2455 2692 50  0000 R CNN
+F 2 "agg:0603" H 2450 2750 50  0001 C CNN
+F 3 "" H 2450 2750 50  0001 C CNN
+	1    2450 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L agg:TPS79930 IC1
+U 1 1 5CDCFED4
+P 1750 2700
+F 0 "IC1" H 1750 3025 50  0000 C CNN
+F 1 "TPS79930" H 1750 2934 50  0000 C CNN
+F 2 "agg:SOT-23-5" H 1450 2400 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps799.pdf" H 1450 2300 50  0001 L CNN
+F 4 "1135402" H 1450 2200 50  0001 L CNN "Farnell"
+	1    1750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2600 1250 2600
+Wire Wire Line
+	1250 2600 1250 2700
+Wire Wire Line
+	1250 2700 1350 2700
+$Comp
+L agg:C C2
+U 1 1 5CDD15FD
+P 2250 2700
+F 0 "C2" V 2254 2758 50  0000 L CNN
+F 1 "10n" V 2345 2758 50  0000 L CNN
+F 2 "agg:0402" H 2250 2700 50  0001 C CNN
+F 3 "" H 2250 2700 50  0001 C CNN
+	1    2250 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  2700 1000 2700
+Wire Wire Line
+	1050 2700 1250 2700
+Connection ~ 1050 2700
+Connection ~ 1250 2700
+Wire Wire Line
+	900  2800 950  2800
+Wire Wire Line
+	1050 2800 1300 2800
+Connection ~ 1050 2800
+$Comp
+L agg:GND #PWR0101
+U 1 1 5CDD7D81
+P 1050 2900
+F 0 "#PWR0101" H 920 2940 50  0001 L CNN
+F 1 "GND" H 1050 2989 50  0000 C CNN
+F 2 "" H 1050 2900 50  0001 C CNN
+F 3 "" H 1050 2900 50  0001 C CNN
+	1    1050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg:GND #PWR0102
+U 1 1 5CDD87F7
+P 2250 2900
+F 0 "#PWR0102" H 2120 2940 50  0001 L CNN
+F 1 "GND" H 2250 2989 50  0000 C CNN
+F 2 "" H 2250 2900 50  0001 C CNN
+F 3 "" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2800 1050 2900
+Wire Wire Line
+	2250 2800 2250 2900
+Wire Wire Line
+	2450 2750 2450 2800
+Wire Wire Line
+	2450 2800 2250 2800
+Connection ~ 2250 2800
+Wire Wire Line
+	2250 2700 2150 2700
+Wire Wire Line
+	2150 2600 2450 2600
+Wire Wire Line
+	2450 2600 2450 2650
+Wire Wire Line
+	2450 2600 2750 2600
+Wire Wire Line
+	2750 2600 2750 2950
+Connection ~ 2450 2600
+Wire Wire Line
+	2950 2950 2750 2950
+Connection ~ 2750 2950
+Wire Wire Line
+	2750 3050 2950 3050
+Wire Wire Line
+	2950 3050 2950 3150
+Wire Wire Line
+	2950 3150 3650 3150
+Connection ~ 2950 3050
+Wire Wire Line
+	3650 3050 3550 3050
+Wire Wire Line
+	3650 3050 3850 3050
+Wire Wire Line
+	3850 3050 3850 3150
+Connection ~ 3650 3050
+Wire Wire Line
+	4000 3300 2950 3300
+Wire Wire Line
+	2950 3300 2950 3150
+Connection ~ 2950 3150
+Wire Wire Line
+	4000 3000 4000 2600
+Wire Wire Line
+	4000 2600 2750 2600
+Connection ~ 2750 2600
+Wire Wire Line
+	4000 3300 4650 3300
+Connection ~ 4000 3300
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CDE5B29
+P 1100 4550
+F 0 "H1" H 1200 4596 50  0000 L CNN
+F 1 "MountingHole" H 1200 4505 50  0000 L CNN
+F 2 "agg:M3_MOUNT" H 1100 4550 50  0001 C CNN
+F 3 "~" H 1100 4550 50  0001 C CNN
+	1    1100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CDE6F1A
+P 1300 4550
+F 0 "H2" H 1400 4596 50  0000 L CNN
+F 1 "MountingHole" H 1400 4505 50  0000 L CNN
+F 2 "agg:M3_MOUNT" H 1300 4550 50  0001 C CNN
+F 3 "~" H 1300 4550 50  0001 C CNN
+	1    1300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CDE7180
+P 1500 4550
+F 0 "H3" H 1600 4596 50  0000 L CNN
+F 1 "MountingHole" H 1600 4505 50  0000 L CNN
+F 2 "agg:M3_MOUNT" H 1500 4550 50  0001 C CNN
+F 3 "~" H 1500 4550 50  0001 C CNN
+	1    1500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CDE77DC
+P 1700 4550
+F 0 "H4" H 1800 4596 50  0000 L CNN
+F 1 "MountingHole" H 1800 4505 50  0000 L CNN
+F 2 "agg:M3_MOUNT" H 1700 4550 50  0001 C CNN
+F 3 "~" H 1700 4550 50  0001 C CNN
+	1    1700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg:COAX P2
+U 1 1 5CDD5822
+P 4800 2600
+F 0 "P2" H 4888 2618 50  0000 L CNN
+F 1 "COAX" H 4888 2527 50  0000 L CNN
+F 2 "agg:SMA-EDGE" H 4800 2390 50  0001 C CNN
+F 3 "" H 4900 2500 50  0001 C CNN
+F 4 "1608592" H 4800 2320 50  0001 C CNN "Farnell"
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg:C C6
+U 1 1 5CDD5F56
+P 4500 2600
+F 0 "C6" H 4550 2795 50  0000 C CNN
+F 1 "C" H 4550 2704 50  0000 C CNN
+F 2 "agg:0603" H 4500 2600 50  0001 C CNN
+F 3 "" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg:C C7
+U 1 1 5CDD63D1
+P 4500 2950
+F 0 "C7" H 4550 3145 50  0000 C CNN
+F 1 "C" H 4550 3054 50  0000 C CNN
+F 2 "agg:0603" H 4500 2950 50  0001 C CNN
+F 3 "" H 4500 2950 50  0001 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2950 4600 2950
+Wire Wire Line
+	4700 2600 4600 2600
+Wire Wire Line
+	4700 2700 4650 2700
+Wire Wire Line
+	4650 2700 4650 3050
+Wire Wire Line
+	4700 3050 4650 3050
+Connection ~ 4650 3050
+Wire Wire Line
+	4650 3050 4650 3300
+Wire Wire Line
+	4500 2950 4450 2950
+Wire Wire Line
+	4500 2600 4450 2600
+Wire Wire Line
+	4450 2600 4450 2950
+Connection ~ 4450 2950
+Wire Wire Line
+	4450 2950 3550 2950
+Text Label 3550 2950 0    50   ~ 0
+RF_OUT_TCXO
+$Comp
+L agg:CONN_01x02 J2
+U 1 1 5CE32516
+P 800 2300
+F 0 "J2" H 833 2515 50  0000 C CNN
+F 1 "CONN_01x02" H 833 2424 50  0000 C CNN
+F 2 "agg:MOLEX-KK-254P-02" H 800 2300 50  0001 C CNN
+F 3 "" H 800 2300 50  0001 C CNN
+	1    800  2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2400 950  2400
+Wire Wire Line
+	950  2400 950  2800
+Connection ~ 950  2800
+Wire Wire Line
+	950  2800 1050 2800
+Wire Wire Line
+	900  2300 1000 2300
+Wire Wire Line
+	1000 2300 1000 2700
+Connection ~ 1000 2700
+Wire Wire Line
+	1000 2700 1050 2700
+Text Label 900  2300 0    50   ~ 0
+VIN_5V
+Text Label 2150 2600 0    50   ~ 0
+V_3V0
+Wire Wire Line
+	1300 2800 1300 2950
+Wire Wire Line
+	1300 2950 2200 2950
+Wire Wire Line
+	2200 2950 2200 2800
+Wire Wire Line
+	2200 2800 2250 2800
+Connection ~ 1300 2800
+Wire Wire Line
+	1300 2800 1350 2800
+Wire Wire Line
+	2450 2800 2450 3150
+Wire Wire Line
+	2450 3150 2950 3150
+Connection ~ 2450 2800
+$EndSCHEMATC
