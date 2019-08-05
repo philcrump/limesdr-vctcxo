@@ -1,41 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_R_POT_TRIM
-#
-DEF Device_R_POT_TRIM RV 0 40 Y N 1 F N
-F0 "RV" -175 0 50 V V C CNN
-F1 "Device_R_POT_TRIM" -100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Potentiometer*
-$ENDFPLIST
-DRAW
-S 40 100 -40 -100 0 1 10 N
-P 2 0 1 0 60 30 60 -30 N
-P 2 0 1 0 100 0 60 0 N
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-X 3 3 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
 # agg_C
 #
 DEF agg_C C 0 40 N N 1 F N
@@ -130,6 +95,41 @@ X Vc 1 300 -100 100 L 50 50 1 1 I
 X GND 2 -300 -100 100 R 50 50 1 1 W
 X OUT 3 300 0 100 L 50 50 1 1 O
 X VCC 4 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# vctcxo-ref-rescue_MountingHole-Mechanical
+#
+DEF vctcxo-ref-rescue_MountingHole-Mechanical H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "vctcxo-ref-rescue_MountingHole-Mechanical" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# vctcxo-ref-rescue_R_POT_TRIM-Device
+#
+DEF vctcxo-ref-rescue_R_POT_TRIM-Device RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "vctcxo-ref-rescue_R_POT_TRIM-Device" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 60 30 60 -30 N
+P 2 0 1 0 100 0 60 0 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

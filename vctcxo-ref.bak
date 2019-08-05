@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:vctcxo-ref-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -27,7 +27,7 @@ F 4 "2467929" H 3050 2650 50  0001 L CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_TRIM RV1
+L vctcxo-ref-rescue:R_POT_TRIM-Device RV1
 U 1 1 5CDC8BA6
 P 4000 3150
 F 0 "RV1" H 3930 3104 50  0000 R CNN
@@ -142,7 +142,7 @@ Connection ~ 1250 2700
 Wire Wire Line
 	900  2800 950  2800
 Wire Wire Line
-	1050 2800 1350 2800
+	1050 2800 1300 2800
 Connection ~ 1050 2800
 $Comp
 L agg:GND #PWR0101
@@ -217,7 +217,7 @@ Wire Wire Line
 	4000 3300 4650 3300
 Connection ~ 4000 3300
 $Comp
-L Mechanical:MountingHole H1
+L vctcxo-ref-rescue:MountingHole-Mechanical H1
 U 1 1 5CDE5B29
 P 1100 4550
 F 0 "H1" H 1200 4596 50  0000 L CNN
@@ -228,7 +228,7 @@ F 3 "~" H 1100 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L vctcxo-ref-rescue:MountingHole-Mechanical H2
 U 1 1 5CDE6F1A
 P 1300 4550
 F 0 "H2" H 1400 4596 50  0000 L CNN
@@ -239,7 +239,7 @@ F 3 "~" H 1300 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L vctcxo-ref-rescue:MountingHole-Mechanical H3
 U 1 1 5CDE7180
 P 1500 4550
 F 0 "H3" H 1600 4596 50  0000 L CNN
@@ -250,7 +250,7 @@ F 3 "~" H 1500 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L vctcxo-ref-rescue:MountingHole-Mechanical H4
 U 1 1 5CDE77DC
 P 1700 4550
 F 0 "H4" H 1800 4596 50  0000 L CNN
@@ -347,4 +347,20 @@ Text Label 900  2300 0    50   ~ 0
 VIN_5V
 Text Label 2150 2600 0    50   ~ 0
 V_3V0
+Wire Wire Line
+	1300 2800 1300 2950
+Wire Wire Line
+	1300 2950 2200 2950
+Wire Wire Line
+	2200 2950 2200 2800
+Wire Wire Line
+	2200 2800 2250 2800
+Connection ~ 1300 2800
+Wire Wire Line
+	1300 2800 1350 2800
+Wire Wire Line
+	2450 2800 2450 3150
+Wire Wire Line
+	2450 3150 2950 3150
+Connection ~ 2450 2800
 $EndSCHEMATC

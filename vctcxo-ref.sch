@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:vctcxo-ref-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -27,7 +27,7 @@ F 4 "2467929" H 3050 2650 50  0001 L CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_TRIM RV1
+L vctcxo-ref-rescue:R_POT_TRIM-Device RV1
 U 1 1 5CDC8BA6
 P 4000 3150
 F 0 "RV1" H 3930 3104 50  0000 R CNN
@@ -217,47 +217,47 @@ Wire Wire Line
 	4000 3300 4650 3300
 Connection ~ 4000 3300
 $Comp
-L Mechanical:MountingHole H1
+L vctcxo-ref-rescue:MountingHole-Mechanical H1
 U 1 1 5CDE5B29
-P 1100 4550
-F 0 "H1" H 1200 4596 50  0000 L CNN
-F 1 "MountingHole" H 1200 4505 50  0000 L CNN
-F 2 "agg:M3_MOUNT" H 1100 4550 50  0001 C CNN
-F 3 "~" H 1100 4550 50  0001 C CNN
-	1    1100 4550
+P 800 3850
+F 0 "H1" H 900 3896 50  0000 L CNN
+F 1 "MountingHole" H 900 3805 50  0000 L CNN
+F 2 "agg:M3_MOUNT" H 800 3850 50  0001 C CNN
+F 3 "~" H 800 3850 50  0001 C CNN
+	1    800  3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L vctcxo-ref-rescue:MountingHole-Mechanical H2
 U 1 1 5CDE6F1A
-P 1300 4550
-F 0 "H2" H 1400 4596 50  0000 L CNN
-F 1 "MountingHole" H 1400 4505 50  0000 L CNN
-F 2 "agg:M3_MOUNT" H 1300 4550 50  0001 C CNN
-F 3 "~" H 1300 4550 50  0001 C CNN
-	1    1300 4550
+P 4950 1950
+F 0 "H2" H 5050 1996 50  0000 L CNN
+F 1 "MountingHole" H 5050 1905 50  0000 L CNN
+F 2 "agg:M3_MOUNT" H 4950 1950 50  0001 C CNN
+F 3 "~" H 4950 1950 50  0001 C CNN
+	1    4950 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L vctcxo-ref-rescue:MountingHole-Mechanical H3
 U 1 1 5CDE7180
-P 1500 4550
-F 0 "H3" H 1600 4596 50  0000 L CNN
-F 1 "MountingHole" H 1600 4505 50  0000 L CNN
-F 2 "agg:M3_MOUNT" H 1500 4550 50  0001 C CNN
-F 3 "~" H 1500 4550 50  0001 C CNN
-	1    1500 4550
+P 850 1700
+F 0 "H3" H 950 1746 50  0000 L CNN
+F 1 "MountingHole" H 950 1655 50  0000 L CNN
+F 2 "agg:M3_MOUNT" H 850 1700 50  0001 C CNN
+F 3 "~" H 850 1700 50  0001 C CNN
+	1    850  1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L vctcxo-ref-rescue:MountingHole-Mechanical H4
 U 1 1 5CDE77DC
-P 1700 4550
-F 0 "H4" H 1800 4596 50  0000 L CNN
-F 1 "MountingHole" H 1800 4505 50  0000 L CNN
-F 2 "agg:M3_MOUNT" H 1700 4550 50  0001 C CNN
-F 3 "~" H 1700 4550 50  0001 C CNN
-	1    1700 4550
+P 5000 3950
+F 0 "H4" H 5100 3996 50  0000 L CNN
+F 1 "MountingHole" H 5100 3905 50  0000 L CNN
+F 2 "agg:M3_MOUNT" H 5000 3950 50  0001 C CNN
+F 3 "~" H 5000 3950 50  0001 C CNN
+	1    5000 3950
 	1    0    0    -1  
 $EndComp
 $Comp

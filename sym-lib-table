@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name agg)(type Legacy)(uri /home/phil/Projects/vctcxo-ref/lib/agg-kicad/agg-kicad.lib)(options "")(descr ""))
+  (lib (name agg)(type Legacy)(uri ${KIPRJMOD}/lib/agg-kicad/agg-kicad.lib)(options "")(descr ""))
+  (lib (name vctcxo-ref-rescue)(type Legacy)(uri ${KIPRJMOD}/vctcxo-ref-rescue.lib)(options "")(descr ""))
 )
