@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name agg)(type KiCad)(uri /home/phil/Projects/limesdr-vctcxo/lib/agg-kicad/agg.pretty)(options "")(descr ""))
+  (lib (name agg)(type KiCad)(uri ${KIPRJMOD}/lib/agg-kicad/agg.pretty)(options "")(descr ""))
 )
