@@ -1,6 +1,6 @@
-update=Wed 14 Aug 2019 23:18:54 BST
+update=Mon 19 Aug 2019 13:18:40 BST
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -251,7 +251,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=50R
-Clearance=0.6
+Clearance=0.2
 TrackWidth=1.2
 ViaDiameter=0.8
 ViaDrill=0.4
